@@ -6,3 +6,4 @@ https://github.com/987642-Saykat/H-M-prototype/blob/7415bcfa493a422c8d4a621a444b
 https://github.com/987642-Saykat/H-M-prototype/blob/258faa43c5e7508a6fe853b70033c3d742737d44/dress3.jpeg
 https://github.com/987642-Saykat/H-M-prototype/blob/955b4f1294042d351ae6d32b69863bf3b68624fc/dress4.jpeg
 https://github.com/987642-Saykat/H-M-prototype/blob/7cddf5fb1ebf79f02d084d7b306f576e062e9cc8/dress6.avif
+https://github.com/987642-Saykat/H-M-prototype/blob/c528bfdf59fd77c43840d851432e8319ce35e58e/dress7.avif
