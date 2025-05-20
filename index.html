@@ -4,6 +4,47 @@
   <meta charset="UTF-8" />
   <title>H&M Home</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Dropdown styles */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      min-width: 160px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #333;
+      padding: 10px 12px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f2f2f2;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -11,12 +52,21 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="filter.html">Shop</a></li>
+        <li class="dropdown">
+          <a href="filter.html">Shop</a>
+          <div class="dropdown-content">
+            <a href="filter.html?category=men">Men</a>
+            <a href="filter.html?category=women">Women</a>
+            <a href="filter.html?category=tops">Tops</a>
+            <a href="filter.html?category=bottoms">Bottoms</a>
+          </div>
+        </li>
         <li><a href="cart.html">Cart</a></li>
         <li><a href="login.html">Login</a></li>
       </ul>
     </nav>
   </header>
+
   <main>
     <h1>Welcome to H&M Australia</h1>
     <div class="product-grid">
@@ -26,6 +76,8 @@
       <div class="product-card"><img src="dress4.jpeg" alt="Dress 4" /><p>Denim Dress</p><button onclick="addToCart()">Add to Cart</button></div>
     </div>
   </main>
+
   <script src="script.js"></script>
 </body>
 </html>
+
